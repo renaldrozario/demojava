@@ -57,7 +57,7 @@
 							<li><a href="#">Engage</a></li>
 							<li><a href="#">Pontificate</a></li>
 							<li><a href="#">Synergize</a></li>
-							</ul>
+						</ul>
 					</li>
                 </ul>
 
@@ -78,7 +78,7 @@
 	<div class="jumbotron feature">
 		<div class="container">
 		
-		<div id="feature-carousel" class="carousel slide" data-ride="carousel">
+		<!-- <div id="feature-carousel" class="carousel slide" data-ride="carousel">
 			<ol class="carousel-indicators">
 			  <li data-target="#feature-carousel" data-slide-to="0" class="active"></li>
 			  <li data-target="#feature-carousel" data-slide-to="1"></li>
@@ -109,61 +109,21 @@
 			  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 			  <span class="sr-only">Next</span>
 			</a>
-		  </div>
+		  </div> -->
+		  		  
+		  <iframe id="forecast_embed" type="text/html" frameborder="0" height="245" width="100%" src="http://forecast.io/embed/#lat=42.3583&lon=-71.0603&name=Downtown Boston&color=#00aaff&font=Georgia&units=uk"> </iframe>
 
 		</div>
 	</div>
 
-
-
     <!-- Content -->
-    <div class="container">
-
-        <!-- Page Intro 
-        <div class="row page-intro">
-            <div class="col-lg-12">
-                <h1>Superior Collaboration
-                    <small>Visualize Quality</small>
-                </h1>
-                <p>Proactively envisioned multimedia based expertise and cross-media growth strategies. Seamlessly visualize quality intellectual capital without superior collaboration and idea-sharing. Holistically pontificate installed base portals after maintainable products.</p>
-            </div>
-        </div>  -->
-        <!-- /.row -->
-
-        <!-- Feature Row -->
-        <div class="row">
-            <article class="col-md-4 article-intro">
-                <a href="#">
-                    <img class="img-responsive img-rounded" src="pictures/jenkins.png" alt="">
-                </a>
-                <h3>
-                    <a href="#">Continous deployment</a>
-                </h3>
-                <p>(CD) is a software engineering approach in which teams produce software in short cycles, ensuring that the software can be reliably released at any time. It aims at building, testing, and releasing software faster and more frequently.</p>
-            </article>
-            <article class="col-md-4 article-intro">
-                <a href="#">
-                    <img class="img-responsive img-rounded" src="pictures/cloudorch.png" alt="">
-                </a>
-                <h3>
-                    <a href="#">Cloud Automation</a>
-                </h3>
-                <p>Cloud automation combines the agility businesses need with the control IT requires. A single solution for public & private cloud release automation.</p>
-            </article>
-
-            <article class="col-md-4 article-intro">
-                <a href="#">
-                    <img class="img-responsive img-rounded" src="pictures/Devops.png" alt="">
-                </a>
-                <h3>
-                    <a href="#">DevOps</a>
-                </h3>
-                <p>DevOps (a clipped compound of development and operations) is a culture, movement or practice that emphasizes the collaboration and communication of both software developers and other information-technology (IT) professionals while automating the process of software delivery and infrastructure changes.</p>
-            </article>
-     </div>
-        <!-- /.row -->
-
-    </div>
+    <iframe id="rediff_realtime_widget" name="rediff_realtime_widget" src="http://realtime.rediff.com/widgets/result?searchbar=true&thumbnail=true&cat=world_news&numresults=4" scrolling="no" frameborder="0" marginHeight="0" marginWidth="0" style="width:350px; height:310px"></iframe>
+	
+	<iframe id="moneywiz_widget" name="moneywiz_widget" src="http://money.rediff.com/widget/moneywizwidget" scrolling="no" frameborder="0" marginHeight="0" marginWidth="0" style="width:260px; height:315px"></iframe>
+	
+	<iframe id="rediff_realtime_widget" name="rediff_realtime_widget" src="http://realtime.rediff.com/widgets/result?searchbar=true&thumbnail=true&cat=sports&numresults=4" scrolling="no" frameborder="0" marginHeight="0" marginWidth="0" style="width:350px; height:310px"></iframe>
+	
+	<iframe id="rediff_realtime_widget" name="rediff_realtime_widget" src="http://realtime.rediff.com/widgets/result?searchbar=true&thumbnail=true&cat=entertainment&numresults=4" scrolling="no" frameborder="0" marginHeight="0" marginWidth="0" style="width:350px; height:310px"></iframe>
     <!-- /.container -->
 	<!--
 	<footer>
